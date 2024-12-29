@@ -1,6 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 import App from "./components/App";
 
-
-// Render the App component
 const appDiv = document.getElementById("app");
-render(<App />, appDiv);
+const root = ReactDOM.createRoot(appDiv);
+root.render(<App />);
